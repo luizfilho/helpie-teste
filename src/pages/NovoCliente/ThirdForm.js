@@ -53,7 +53,7 @@ const ThirdForm = props => {
           type="submit"
           variant="outlined"
           color="primary"
-          disabled={pristine || submitting}
+          disabled={submitting}
         >
           Cadastrar Novo Cliente
         </Button>

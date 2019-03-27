@@ -17,12 +17,6 @@ const INITIAL_STATE = {
   ]
 };
 
-// function addClient(state, action) {
-//   const cliente = action.payload;
-//   console.log("STATE", state);
-//   return state.listaClientes.push(cliente);
-// }
-
 export default (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case actionsType.ADD_CLIENTE:

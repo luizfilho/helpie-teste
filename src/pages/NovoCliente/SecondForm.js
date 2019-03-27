@@ -6,6 +6,7 @@ import Button from "@material-ui/core/Button";
 import "../../App.css";
 const SecondForm = props => {
   const { handleSubmit, previousPage } = props;
+  console.log("PROPS TERCEIRO FORM", props);
   return (
     <form onSubmit={handleSubmit}>
       <div>

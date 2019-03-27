@@ -14,8 +14,6 @@ const persistedReducer = persistReducer(persistConfig, reducers);
 const devTools =
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__();
 
-// export default createStore(reducers, devTools);
-
 const store = createStore(persistedReducer, devTools);
 const persistor = persistStore(store);
 export { store, persistor };
