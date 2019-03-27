@@ -14,3 +14,32 @@
 .field {
   width: 500px;
 }
+/* Lista Cliente */
+.listaCliente {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid #ccc;
+  margin-top: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.28);
+}
+.listaCliente:hover {
+  padding: 25px;
+  transition-duration: 100ms;
+}
+
+/* Cliente */
+.cliente ul {
+  padding: 5px;
+  border-bottom: 2px solid grey;
+  list-style-type: none;
+}
+.cliente ul li {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-top: 15px;
+}

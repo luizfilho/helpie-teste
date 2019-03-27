@@ -1,6 +1,5 @@
 import React from "react";
 import { Field } from "redux-form";
-import { Redirect } from "react-router-dom";
 import { connect } from "react-redux";
 import { withStyles } from "@material-ui/core/styles";
 import { bindActionCreators } from "redux";

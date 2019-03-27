@@ -1,5 +1,5 @@
 import React from "react";
-import { Field, reduxForm, reset } from "redux-form";
+import { Field, reduxForm } from "redux-form";
 import { compose } from "redux";
 import { withRouter } from "react-router-dom";
 import Button from "@material-ui/core/Button";
@@ -13,7 +13,6 @@ const ThirdForm = props => {
     previousPage,
     submitting,
     destroy,
-    onSubmit,
     history
   } = props;
   console.log("PROPS TERCEIRO FORM", props);

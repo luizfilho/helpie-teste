@@ -18,6 +18,9 @@ export default values => {
   if (!values.endereco1) {
     errors.endereco1 = "Um endereço Obrigátorio!";
   }
+  if (!values.endereco2) {
+    errors.endereco2 = "Outra opção de endereço Obrigátorio!";
+  }
   if (!values.dataNascimento) {
     errors.dataNascimento = "Data de Nascimento Obrigátoria!";
   }
