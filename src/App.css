@@ -1,0 +1,16 @@
+/* Fields */
+.form {
+  display: flex;
+  justify-content: center;
+}
+.controlFirst {
+  display: flex;
+  justify-content: flex-end;
+}
+.control {
+  display: flex;
+  justify-content: space-between;
+}
+.field {
+  width: 500px;
+}
