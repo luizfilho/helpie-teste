@@ -52,7 +52,7 @@ function PermanentDrawerLeft(props) {
       <AppBar position="fixed" className={classes.appBar}>
         <Toolbar>
           <Typography variant="h4" color="inherit" noWrap>
-            Helpier!
+            Helpie!
           </Typography>
         </Toolbar>
       </AppBar>
